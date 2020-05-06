@@ -3,7 +3,7 @@
 body {
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
-  color: black;
+  color: white;
 }
 
 /* ----------------------------------------------- Navigation Start --- */
@@ -13,11 +13,105 @@ body {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 2px;
-  background-color: rgba(0, 0, 0, .6)!important
+  background-color: rgba(255, 255, 255, .4)!important
 }
 
 .navbar-nav li{
   padding-right: 11px;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #008080;
+}
+
 /* ----------------------------------------------- Navigation End --- */
+
+/* ----------------------------------------------- Landing Page Start --- */
+
+.home-img {
+  height: 100vh;
+  background: url(images/portugal.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 50px;
+  font-weight: 500;
+  display: block;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 10px;
+  text-align: center !important;
+}
+
+hr {
+  width: 60%;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.caption h3 {
+  font-size: 25px;
+  font-family: "Gotu", sans-serif;
+  font-weight: 300;
+  text-align: center !important;
+  padding-top: 10px;
+  margin-bottom: 60px;
+}
+
+.btn-lg {
+  font-weight: bold;
+  border-radius: 23px;
+  width: 160px;
+}
+
+.btn-light {
+  color: white;
+  background-color: #008B8B;
+  border-color: #008B8B;
+}
+
+.btn:hover {
+  background-color:white;
+  color: #008B8B;
+  border: 1px solid white;
+}
+
+/* ----------------------------------------------- Landing Page End --- */
