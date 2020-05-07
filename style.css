@@ -227,10 +227,25 @@ hr {
     font-family: "Gotu", sans-serif;
 }
 
-
-
-
 /* ----------------------------------------------- End Features Section --- */
+
+/* ----------------------------------------------- Start Contact Section --- */
+
+.contact-wrapper{
+    height: 100vh;
+    background: url(images/boat.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    }
+
+/* ----------------------------------------------- End Contact Section --- */
 
 /* ----------------------------------------------- Media Queries --- */
 
@@ -262,8 +277,17 @@ hr {
         margin-top: 50%
     }
 
-    .left,
-    .right {
+    .heading {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+    }
+
+    .left{
         width: 300px;
         height: 300px;
         float: none;
@@ -272,9 +296,41 @@ hr {
         border-width: 1px;
         border-radius: 50%;
         padding: 5px;
-        margin-bottom: 10px;
+        margin-bottom: 170px;
+    }
 
-}
+    .right{
+        width: 300px;
+        height: 300px;
+        float: none;
+        border-style: solid;
+        background-color: white;
+        border-width: 1px;
+        border-radius: 50%;
+        padding: 5px;
+        margin-bottom: 150px;
+    }
+
+    .middle {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 200px;
+    }
+
+    .heading-services {
+    font-size: 30px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: "Gotu", sans-serif;
+    margin-top: 5%;
+    }
 
 @media screen and (min-width: 767px) {
     
@@ -348,45 +404,64 @@ hr {
 
 .circle-container {
     width: auto;
-    margin-top: 20%;
+    margin-top: 25%;
 }
 
-.left-img {
-    background: url(images/looking.jpg) no-repeat center;
-    height: 100%;
-    border-radius: 50%;
-    background-size: 200px;
-}
-
-.left,
-.right {
-    width: 200px;
-    height: 200px;
+.left {
+    width: 300px;
+    height: 300px;
     float: none;
     border-style: solid;
     background-color: white;
     border-width: 1px;
     border-radius: 50%;
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 170px;
+}
+
+.left-img {
+    background: url(images/looking.jpg) no-repeat center;
+    height: 100%;
+    border-radius: 50%;
+    background-size: 300px;
+}
+
+.right {
+     width: 300px;
+    height: 300px;
+    float: none;
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 150px;
+}
+
+.right-img{
+    background: url(images/kids.jpg) no-repeat center;
+    height: 100%;
+    border-radius: 50%;
+    background-size: 300px;
 }
 
 .middle {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
     border-style: solid;
     background-color: white;
     border-width: 1px;
     border-radius: 50%;
     padding: 5px;
+    margin-bottom: 200px;
 }
 
 .middle-img {
     background: url(images/bed.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
-    background-size: 200px;
+    background-size: 300px;
 }
 
 }
