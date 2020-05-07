@@ -215,33 +215,105 @@ hr {
     background-size: 300px;
 }
 
+.description-container{
+    width: 100%;
+}
+
+.heading-services {
+    font-size: 30px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: "Gotu", sans-serif;
+}
+
+
+
 
 /* ----------------------------------------------- End Features Section --- */
 
 /* ----------------------------------------------- Media Queries --- */
 
 @media (max-width: 767px){
-    .caption h1 {
-  font-size: 35px;
-  font-weight: 500;
-  display: block;
-  font-family: "Lato", sans-serif;
-  margin-bottom: 10px;
-  text-align: center !important;
+        .caption h1 {
+    font-size: 35px;
+    font-weight: 500;
+    display: block;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 10px;
+    text-align: center !important;
+    }
+
+    .caption h3 {
+    font-size: 13px;
+    font-family: "Gotu", sans-serif;
+    font-weight: 300;
+    text-align: center !important;
+    padding-top: 10px;
+    margin-bottom: 60px;
+    }
+
+    .features-wrapper {
+        height: auto;
+    }
+
+    .circle-container {
+        width: auto;
+        margin-top: 50%
+    }
+
+    .left,
+    .right {
+        width: 300px;
+        height: 300px;
+        float: none;
+        border-style: solid;
+        background-color: white;
+        border-width: 1px;
+        border-radius: 50%;
+        padding: 5px;
+        margin-bottom: 10px;
+
 }
 
-.caption h3 {
-  font-size: 13px;
-  font-family: "Gotu", sans-serif;
-  font-weight: 300;
-  text-align: center !important;
-  padding-top: 10px;
-  margin-bottom: 60px;
-}
+@media screen and (min-width: 767px) {
+    
+    .features-wrapper {
+    height: auto;
+    background: url(images/arco.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    }
 
-.circle-container {
-    width: 90%;
-}
+    .circle-container {
+    width: 100%;
+    margin-top: 30%;
+    }
+
+    .container{
+        max-width: min-content;
+    }
+
+    .left,
+    .right {
+        width: 300px;
+        height: 300px;
+        float: none;
+        border-style: solid;
+        background-color: white;
+        border-width: 1px;
+        border-radius: 50%;
+        padding: 5px;
+        margin-bottom: 10px;
+        margin: 0 auto;
+    }
 
 }
 
@@ -264,9 +336,63 @@ hr {
   margin-bottom: 20px;
 }
 
+.heading {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
 }
 
-@media (min-width: 812px) and (max-width: 823px) and (orientation: landscape) {
+.circle-container {
+    width: auto;
+    margin-top: 20%;
+}
+
+.left-img {
+    background: url(images/looking.jpg) no-repeat center;
+    height: 100%;
+    border-radius: 50%;
+    background-size: 200px;
+}
+
+.left,
+.right {
+    width: 200px;
+    height: 200px;
+    float: none;
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.middle {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.middle-img {
+    background: url(images/bed.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    background-size: 200px;
+}
+
+}
+
+@media (min-width: 812px) and (max-width: 823px) and (orientation: landscape){
+
     .caption h1 {
   font-size: 30px;
   font-weight: 500;
@@ -274,15 +400,54 @@ hr {
   font-family: "Lato", sans-serif;
   margin-bottom: 10px;
   text-align: center !important;
-}
+    }
 
-.caption h3 {
-  font-size: 20px;
-  font-family: "Gotu", sans-serif;
-  font-weight: 300;
-  text-align: center !important;
-  padding-top: 10px;
-  margin-bottom: 30px;
-}
+    .caption h3 {
+    font-size: 20px;
+    font-family: "Gotu", sans-serif;
+    font-weight: 300;
+    text-align: center !important;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    }
+
+    /*.left-img {
+        background: url(images/looking.jpg) no-repeat center;
+        height: 100%;
+        border-radius: 50%;
+        background-size: 200px;
+    }
+
+    .left,
+    .right {
+        width: 200px;
+        height: 200px;
+        float: none;
+        border-style: solid;
+        background-color: white;
+        border-width: 1px;
+        border-radius: 50%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .middle {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        border-style: solid;
+        background-color: white;
+        border-width: 1px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .middle-img {
+        background: url(images/bed.jpg) no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+        background-size: 200px;
+    }*/
+
 
 }
