@@ -275,7 +275,6 @@ hr {
 
 .phone{
     position: fixed;
-    right: 0;
     bottom: 0;
     left: 30px;
     z-index: 1030;
