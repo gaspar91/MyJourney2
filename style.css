@@ -245,12 +245,48 @@ hr {
     position: relative;
     }
 
+.center-form {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.form-control {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #008080;
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+    border: 1px solid #008080;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button{
+    padding-top: 20px;
+}
+
+.phone{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 30px;
+    z-index: 1030;
+}
+
 /* ----------------------------------------------- End Contact Section --- */
 
 /* ----------------------------------------------- Media Queries --- */
 
 @media (max-width: 767px){
-        .caption h1 {
+    .caption h1 {
     font-size: 35px;
     font-weight: 500;
     display: block;
@@ -332,6 +368,38 @@ hr {
     margin-top: 5%;
     }
 
+    .contact-heading{
+        width: 90%;
+        max-width: 100%;
+        position: absolute;
+        top: 10%;
+        z-index: 1;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .form-control{
+        max-width: 100%;
+    }
+
+    .button{
+        padding-bottom: 30px;
+    }
+
+    .phone{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 70%;
+        position: fixed;
+        bottom: 20%;
+        z-index: 1030;
+        right: 5%;
+        left: 5%;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
 @media screen and (min-width: 767px) {
     
     .features-wrapper {
@@ -374,7 +442,7 @@ hr {
 }
 
 @media screen and (max-device-width: 767px) and (orientation: landscape){
-    .caption h1 {
+.caption h1 {
   font-size: 25px;
   font-weight: 500;
   display: block;
@@ -462,6 +530,27 @@ hr {
     height: 100%;
     border-radius: 50%;
     background-size: 300px;
+}
+
+.contact-heading{
+    width: 90%;
+    max-width: 100%;
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.center-form{
+    max-width: 50%;
+    padding-top: 100px;
+}
+
+.btn-lg{
+    width: 100px;
+    font-size: 15px;
+    padding: 5px;
 }
 
 }
