@@ -363,6 +363,12 @@ footer p {
 
 /*no media query for extra small devices (less than 576px) because it's default*/
 
+@media (max-width: 320px){
+    .about-paragraph{
+        font-size: 18px;
+    }
+}
+
 /*small screens (up to 576px)*/
 @media (max-width:576px){
     .caption h1 {
@@ -804,198 +810,16 @@ footer p {
         top: 10%;
     }
 
+    .about-paragraph{
+        max-width: 80%;
+        font-size: 30px;
+        font-family: "Montserrat";
+        margin-top: 40px;
+    }
+
     .about-paragraph .btn-lg{
         width: 300px;
     }
     
 }
 
-/*@media (max-width: 767px) and (orientation: landscape){
-        .caption h1 {
-        font-size: 25px;
-        font-weight: 500;
-        display: block;
-        font-family: "Lato", sans-serif;
-        margin-bottom: 10px;
-        text-align: center !important;
-        }
-
-        .caption h3 {
-        font-size: 15px;
-        font-family: "Gotu", sans-serif;
-        font-weight: 300;
-        text-align: center !important;
-        padding-top: 10px;
-        margin-bottom: 20px;
-        }
-
-        .heading {
-            width: 100%;
-            max-width: 100%;
-            position: absolute;
-            top: 5%;
-            z-index: 1;
-            color: white;
-            text-transform: uppercase;
-        }
-
-        .circle-container {
-            width: auto;
-            margin-top: 25%;
-        }
-
-        .left {
-            width: 300px;
-            height: 300px;
-            float: none;
-            border-style: solid;
-            background-color: white;
-            border-width: 1px;
-            border-radius: 50%;
-            padding: 5px;
-            margin-bottom: 170px;
-        }
-
-        .left-img {
-            background: url(images/looking.jpg) no-repeat center;
-            height: 100%;
-            border-radius: 50%;
-            background-size: 300px;
-        }
-
-        .right {
-            width: 300px;
-            height: 300px;
-            float: none;
-            border-style: solid;
-            background-color: white;
-            border-width: 1px;
-            border-radius: 50%;
-            padding: 5px;
-            margin-bottom: 150px;
-        }
-
-        .right-img{
-            background: url(images/kids.jpg) no-repeat center;
-            height: 100%;
-            border-radius: 50%;
-            background-size: 300px;
-        }
-
-        .middle {
-            width: 300px;
-            height: 300px;
-            margin: 0 auto;
-            border-style: solid;
-            background-color: white;
-            border-width: 1px;
-            border-radius: 50%;
-            padding: 5px;
-            margin-bottom: 200px;
-        }
-
-        .middle-img {
-            background: url(images/bed.jpg) no-repeat center center;
-            height: 100%;
-            border-radius: 50%;
-            background-size: 300px;
-        }
-
-        .contact-heading{
-            width: 90%;
-            max-width: 100%;
-            position: absolute;
-            top: 20%;
-            z-index: 1;
-            color: white;
-            text-transform: uppercase;
-        }
-
-        .center-form{
-            max-width: 50%;
-            padding-top: 100px;
-        }
-
-        .btn-lg{
-            width: 100px;
-            font-size: 15px;
-            padding: 5px;
-        }
-
-        #footer{
-            bottom: auto;
-            left: 10px;
-        }
-
-        footer p {
-            float: left;
-            padding-left: 10px;
-            margin-top: 15px;
-        }
-
-        .paragraph {
-            margin-top: 0;
-        }
-
-}
-
-@media (min-width: 812px) and (max-width: 823px) and (orientation: landscape){
-
-    .caption h1 {
-  font-size: 30px;
-  font-weight: 500;
-  display: block;
-  font-family: "Lato", sans-serif;
-  margin-bottom: 10px;
-  text-align: center !important;
-    }
-
-    .caption h3 {
-    font-size: 20px;
-    font-family: "Gotu", sans-serif;
-    font-weight: 300;
-    text-align: center !important;
-    padding-top: 10px;
-    margin-bottom: 30px;
-    }
-
-    /*.left-img {
-        background: url(images/looking.jpg) no-repeat center;
-        height: 100%;
-        border-radius: 50%;
-        background-size: 200px;
-    }
-
-    .left,
-    .right {
-        width: 200px;
-        height: 200px;
-        float: none;
-        border-style: solid;
-        background-color: white;
-        border-width: 1px;
-        border-radius: 50%;
-        padding: 5px;
-        margin-bottom: 10px;
-    }
-
-    .middle {
-        width: 200px;
-        height: 200px;
-        margin: 0 auto;
-        border-style: solid;
-        background-color: white;
-        border-width: 1px;
-        border-radius: 50%;
-        padding: 5px;
-    }
-
-    .middle-img {
-        background: url(images/bed.jpg) no-repeat center center;
-        height: 100%;
-        border-radius: 50%;
-        background-size: 200px;
-    }*/
-
-
-}
