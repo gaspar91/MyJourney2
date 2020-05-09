@@ -118,9 +118,41 @@ hr {
 
 /* ----------------------------------------------- Start About Section --- */
 
-.about-bg{
-    background-color: #008B8B;
+.about-wrapper{
+    height: 100vh;
+    background: url(images/beach2.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
+
+.about-heading{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.about-paragraph{
+    max-width: 70%;
+    font-size: 25px;
+    font-family: "Montserrat";
+}
+
+.about-paragraph p{
+    margin-bottom: 70px;
+}
+
+
 
 /* ----------------------------------------------- End About Section --- */
 
@@ -468,8 +500,22 @@ footer p {
         margin: 0 auto;
         margin-bottom: 15px;
     }
+
+    .about-heading{
+        top: 10%;
+    }
+
+    .about-paragraph p {
+        margin-bottom: 40px;
+    }
+
+    .about-paragraph{
+        font-size: 20px;
+        margin-top: 30%;
+    }
 }
 
+/*medium devices (up to 767px)*/
 @media (max-width:767px){
     .caption h1 {
     font-size: 35px;
@@ -608,7 +654,7 @@ footer p {
     }
 }
 
-/*medium devices (up to 768px)*/
+/*between medium and large devices (up to 1024px)*/
 @media (min-width:768px) and (max-width:1024px){
     .features-wrapper {
     height: auto;
@@ -752,6 +798,14 @@ footer p {
 
     .social-links li a i{
         font-size: 30px;
+    }
+
+    .about-heading{
+        top: 10%;
+    }
+
+    .about-paragraph .btn-lg{
+        width: 300px;
     }
     
 }
