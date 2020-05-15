@@ -35,7 +35,7 @@ There are also many activities, for all ages, that the company provides in order
 
 # Design Process XXXXXX
 
-You'll be able to view the pc, mobile and tablet sketches, wireframes, mock for this project in the **Wireframes** folder, located within the **Static** folder in the  [Github project repository](https://github.com/gaspar91/MyJourney).
+You'll be able to view the sketches, wireframes, mockups and a prototype for this project in the **Wireframes** folder, located within the **Static** folder in the  [Github project repository](https://github.com/gaspar91/MyJourney).
 
 I used [Balsamiq](https://balsamiq.com/) to build the wireframes, so you might need the program in order to view some of the documents.
 
