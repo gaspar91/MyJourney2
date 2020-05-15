@@ -111,28 +111,94 @@ It is also important that there is access to a phone number or email address in 
 **2. Navigation Bar Seccions:**
 
    1. Go to the navigation bar.
-   2. Hover over the pages and verify that they change color individualy.
-   3. Try to click on them and verify that you are able to go to the page you selected.
+   2. Hover over the seccions and verify that they change color individualy.
+   3. Try to click on them and verify that you are able to go to the section you selected.
 
 **3. Contact form:**
 
-   1. Go to the "Contact" page.
+   1. Go to the "Contact" section.
    2. Try to submit the empty form and verify that an error message about the required fields appears.
    3. Try to click on the empty field and verify that the auto-fill is available and when you click on it the name and email are automatically filled.
    4. Try to submit the form without filling in one of the fields and verify that an error message about the required field appears.
    5. Try to fill in the email address field without an @ in the email and verify that an error message appears explaining that an @ is missing and it suggests you should include one in your email.
-   6. Try to click on a field and verify that a shadow appears around it.
+   6. Try to click on a field and verify that a shadow appears around it indicating that that's the field you've selected.
 
 **4. Feature Images:**
 
-   1. Go to the Features page.
-   2. Hover over the images and tittle of the image and verify that the image circle changes color.
-   3. Try to click on the image or tittle and verify that you are able to go to the contact page.
+   1. Go to the Features seccion.
+   2. Try to click on the image or description tittle and verify that you are able to go to the contact seccion.
 
 **5. Social Media Icons:**
-   1. Hover over the social media icon on the bottom right corner and verify that they change color individualy.
-   2. Try to click on any social media icon and verify that it opens a new page.
 
+   1. Hover over the social media icon on the bottom right corner of the footer in the contact seccion and verify that they change color individualy.
+   2. Try to click on any social media icon and verify that it opens in a new page.
 
+# Observations
 
+- The website has been checked for responsiveness on a multitude of screen sizes from PC to portable devices, such as tablets and mobile phones.
 
+  - As far as vertical screens most features were found to be fully responsive and fit well within each screen size.
+  - On the other hand, horizontal screens didn't respond so well and some of the features don't fit properly.
+
+- Another problem I found was that, in the Iphone5/SE screen, the background image doesn't cover the whole screen. I tried changing the settings but not much happens. Sometimes when I would refresh the page it would fill the screen, but after some time it would be missing a part of the image.
+
+- One more problem I found was that the Features seccion takes a while to load, because the image is quite large.
+
+- All HTML and CSS code was run through the [W3C HTML Validator](https://validator.w3.org/) and returned no errors.
+
+# Deployment
+
+The website is hosted via [GitHub](https://github.com/), with the source code being available on [my repository](https://github.com/gaspar91/MyJourney2).
+
+### How I Did It
+
+- To deploy this project I followed these steps:
+
+    1. Open my [GitHub repository](https://github.com/gaspar91/MyJourney2) project page.
+
+    2. Go to **Settings** at the top right of the page.
+
+    3. Scroll down to the **Github Pages** section.
+
+    4. Select **Master Branch** in the *Source* field and save it.
+
+    5. After refreshing the page, go back to **Github Pages** section were now it will say "*Your site is published at*" with a link to the website in front of it.
+
+### How You Can Access It
+- In order to run this project locally you should follow these steps:
+
+    1. Click the green *'clone or download'* button in the [GitHub repository](https://github.com/gaspar91/MyJourney2) for the project.
+
+    2. Copy the link provided by clicking the **clipboard button** to the right of the link.
+
+    3. In your terminal, type ***git clone***, paste in the previously copied link, and hit return.
+
+    4. The website should now be installed on your device.
+
+- If you already have an account on [GitHub](https://github.com/) then you should follow these steps:
+
+    1. Make sure that you are logged in to your [GitHub account](https://github.com/).
+
+    2. In the [project repository](https://github.com/gaspar91/MyJourney2), click the small green button reading **gitpod** which is placed next to the **clone or download** button.
+
+# Credits
+
+### Content 
+
+ - The code for the **navigation bar** was duplicated from [Drew Ryan](https://www.youtube.com/watch?v=V_lAhqLXT9A)
+ - The code for the **social media footer** was duplicated from [Code Institute's Love Running Project](https://github.com/Code-Institute-Org/love-running-rebuild)
+ - The code for the **circles with images** in the features seccion was duplicated from [Code Institute's Love Running Project](https://github.com/Code-Institute-Org/love-running-rebuild)
+
+### Media
+
+The photos used in this website were provided by [Unsplash](https://unsplash.com/)
+
+### Acknowledgements
+
+I received inspiration and assistance for this project from:
+
+- [Code Institute](https://codeinstitute.net/)
+- [Behance](https://www.behance.net/)
+- [ww3Schools](https://www.w3schools.com/)
+- [CSS Tricks](https://css-tricks.com/)
+- [Drew Ryan](https://www.youtube.com/watch?v=V_lAhqLXT9A)
